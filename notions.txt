@@ -1,0 +1,35 @@
+- Dentro de um projeto usando o create-react-app as configurações do babel e webpack 
+ficam dentro de um pacote react-scripts ( dentro da pasta node_modules); 
+- o script "eject" dentro do package.json traz toda a configuração de webpack e babel 
+para dentro da raiz do projeto. Para evitar de ejetar a estrutura a uma ferramente que 
+podemos usar para adicionar novas configurações de webpack e babel; 
+
+- Quando criamos um projeto com create-react-app alguns tipos vem nas dependências e é
+necessário passar eles e o typescript também para as devdependencies; 
+
+- Uma boa prática é exportar os arquivos do deseign em svg, por que é um formato em vetor; 
+- Antes de iniciar o layout é bom analisar no figma as cores predominantes para reaproveitar; 
+
+- O styled componentes suporta encadeamento de estilos assim como o sass; 
+
+const Title = styled.h1`
+  color: #8257e6; 
+
+  button {
+    
+    color: red;
+  }
+`; 
+
+Com o styled componentes o estilo é apenas do componente, logo não interfere em 
+outros elementos da aplicação; 
+
+Podemos utilizar o styled componentes para criar stilos globais na aplicação: 
+    - Criar pasta styles e criar um arquivo global.ts ( Ver projetos da rocketseat
+    para se basear); 
+
+    -webkit-font-smoothing: antialised; -> Deixa as fontes mais nítidas; 
+
+// O padrão de fonte da aplicação é em 16px; 
+  - O 1rem é o valor da font da aplicação; No caso desse projeto 1rem é igual a 15px 
+  ou 14px, depende do tamanho da tela; 
