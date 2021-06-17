@@ -33,3 +33,8 @@ Podemos utilizar o styled componentes para criar stilos globais na aplicação:
 // O padrão de fonte da aplicação é em 16px; 
   - O 1rem é o valor da font da aplicação; No caso desse projeto 1rem é igual a 15px 
   ou 14px, depende do tamanho da tela; 
+
+// O input, o textarea e o button possuem uma fonte padrão, logo nos estilos globais é 
+necessário subscrever a fonte para a que está no design; 
+
+// É necessário adicionar as fontes e os estilos globais; 
