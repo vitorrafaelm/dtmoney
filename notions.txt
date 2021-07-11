@@ -38,3 +38,18 @@ Podemos utilizar o styled componentes para criar stilos globais na aplicação:
 necessário subscrever a fonte para a que está no design; 
 
 // É necessário adicionar as fontes e os estilos globais; 
+
+&:hover{
+  filter: brightness(0.9);
+}
+
+escurece toda a cor no css; É legal utilizar;
+
+margin-top não funciona em display inline; 
+
+// O mirage.js é usado para simular uma api, é usado em ambiente de desenvolvimento e 
+de testes; O mirage js executa junto a aplicação uma api fake; 
+  - O mirage.js tem banco de dados integrados; 
+  
+
+// É bom deixar o frontend conectado a uma api mesmo que ficticia; 
