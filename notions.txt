@@ -53,3 +53,10 @@ de testes; O mirage js executa junto a aplicação uma api fake;
   
 
 // É bom deixar o frontend conectado a uma api mesmo que ficticia; 
+// Tem que analisar bem como enviar propriedades via componentes; Pode ser feito com 
+contextos, mas é necessário valiar quando isso vale a pena; 
+// Podemos definir inputs do tipo númerico
+
+// O pacote polished serve para manipular cores dentro do jsvascript; 
+// No styled componentes podemos passar prorps e estilizar os componentes de acordo 
+com as props; 
